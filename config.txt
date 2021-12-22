@@ -1,0 +1,4 @@
+domain=knifex.top
+ott=9306472d-949b-4258-99b4-774752860cd1
+delay=25000
+help=1

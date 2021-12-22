@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "index.css"  ],
+      "js": ["index.js" ],
+      "matches": [ "https://knifex.*/*", "http://knifex.*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Token Capcha Shower",
+  
+   "manifest_version": 2,
+   "name": "autoCaptcha",
+   "permissions": [ "http://knifex.*/*", "https://knifex.*/*" ],
+   "version": "1.2.1"
+}
